@@ -34,6 +34,7 @@ function App() {
      
 
 <Routes>
+<Route path='/Introd' element={<Home />}/>
 <Route path='/' element={<Home />}/>
 <Route path='/project' element={<Home />}/>
 <Route path='/contect' element={<Contect/>}/>

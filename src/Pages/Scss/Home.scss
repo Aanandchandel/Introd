@@ -1,0 +1,549 @@
+* {
+  box-sizing: border-box;
+}
+
+#HomeD { 
+  // background-color: black;
+  min-height: 90vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 5rem;
+  // position: relative;
+  // bottom: 10rem;
+  img {
+    position: fixed;
+    right: 15vw;
+    height: 60%;
+    // width: 10%;
+  }
+  div {
+    // padding: 2rem;
+    height: auto;
+    padding: 5%;
+    border-radius: 0% 0% 5% 0%;
+    box-shadow: 10px 5px 10px rgba(255, 127, 80,0.25);
+    // position: relative;
+    // bottom: 8rem;
+    width: 40vw;
+    gap: 1rem;
+    h1 {
+      font-size: 250%;
+      font-weight: 900;
+      span {
+        font-weight: 900;
+        color: coral;
+      }
+      // display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+  p {
+    // margin-top: 2rem;
+    margin-top: 8%;
+  }
+  button {
+    padding: 3px;
+    position: relative;
+    top: 1rem;
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+    border: none;
+  }
+}
+
+#HomeM {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10rem;
+  padding-top: 20%;
+
+  img {
+    height: 40vh;
+    width: 70vw;
+    border-radius: 50%;
+    // box-shadow: 10px 10px 10px rgba(0,0,0,0.25);
+  }
+
+  div {
+    border-radius: 0% 0% 5% 0%;
+    box-shadow: 10px 5px 10px rgba(255, 127, 80,0.25);
+    width: 95vw;
+    padding: 1rem;
+    padding-bottom: 5rem;
+
+    h1 {
+      font-size: 6rem;
+      span {
+        color: coral;
+      }
+    }
+    h2 {
+      height: 5rem;
+      font-size: 4rem;
+    }
+    p {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+    button {
+      border: none;
+      background-color: transparent;
+      border-radius: 50%;
+      opacity: 0.5;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+      margin-top: 5%;
+      font-size: 2rem;
+      height: 10%;
+      width: 20%;
+    }
+  }
+}
+
+#animated-text::before {
+  color: coral;
+  content: "Web Developer";
+  animation: words 15s ease-in infinite;
+}
+#animated-textM::before {
+  color: coral;
+  content: "Web Developer";
+  animation: wordsM 15s ease-in infinite;
+}
+
+@keyframes words {
+  0% {
+    content: "W";
+    border-right: 4px solid black;
+    font-size: 0.9rem;
+  }
+  2% {
+    content: "We";
+  }
+  4% {
+    content: "Web";
+  }
+  6% {
+    content: "Web D";
+  }
+  8% {
+    content: "Web De";
+  }
+  10% {
+    content: "Web Dev";
+  }
+  12% {
+    content: "Web Deve";
+  }
+  14% {
+    content: "Web Devel";
+  }
+  16% {
+    content: "Web Develo";
+  }
+  18% {
+    content: "Web Develop";
+  }
+  20% {
+    content: "Web Develope";
+  }
+  22% {
+    content: "Web Developer";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+  29% {
+    content: "Web Developer";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+  30% {
+    content: "F";
+    border-right: 4px solid black;
+    font-size: 0.9rem;
+  }
+  32% {
+    content: "Fr";
+  }
+  33% {
+    content: "Fro";
+  }
+  34% {
+    content: "Fron";
+  }
+  35% {
+    content: "Front";
+  }
+  36% {
+    content: "Fronte";
+  }
+  37% {
+    content: "Fronten";
+  }
+  38% {
+    content: "Frontend";
+  }
+  39% {
+    content: "Frontend D";
+  }
+  40% {
+    content: "Frontend De";
+  }
+  41% {
+    content: "Frontend Dev";
+  }
+  42% {
+    content: "Frontend Deve";
+  }
+  43% {
+    content: "Frontend Devel";
+  }
+  44% {
+    content: "Frontend Develo";
+  }
+  45% {
+    content: "Frontend Develop";
+  }
+  46% {
+    content: "Frontend Develope";
+  }
+  47% {
+    content: "Frontend Developer";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+  54% {
+    content: "Frontend Developer";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+
+  55% {
+    content: "B";
+    border-right: 4px solid black;
+    font-size: 0.9rem;
+  }
+  56% {
+    content: "Ba";
+  }
+  57% {
+    content: "Bac";
+  }
+  58% {
+    content: "Back";
+  }
+  59% {
+    content: "Backe";
+  }
+  60% {
+    content: "Backen";
+  }
+  61% {
+    content: "Backend";
+  }
+  62% {
+    content: "Backend D";
+  }
+  63% {
+    content: "Backend De";
+  }
+  64% {
+    content: "Backend Dev";
+  }
+  65% {
+    content: "Backend Deve";
+  }
+  66% {
+    content: "Backend Devel";
+  }
+  67% {
+    content: "Backend Develo";
+  }
+  68% {
+    content: "Backend Develop";
+  }
+  69% {
+    content: "Backend Develope";
+  }
+  70% {
+    content: "Backend Developer";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+  80% {
+    content: "Backend Developer";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+
+  81%,
+  82% {
+    content: "Y";
+    color: crimson;
+    border-right: 4px solid black;
+    font-size: 0.9rem;
+  }
+  83%,
+  84% {
+    content: "Yo";
+  }
+  85%,
+  86% {
+    content: "You";
+  }
+  87%,
+  88% {
+    content: "YouT";
+  }
+  89%,
+  90% {
+    content: "YouTu";
+  }
+  91%,
+  92% {
+    content: "YouTub";
+  }
+  93%,
+  94% {
+    content: "YouTube";
+  }
+  95%,
+  96% {
+    content: "YouTuber";
+    border-right: none;
+    font-size: 1.2rem;
+  }
+  96%,
+  100% {
+    content: "YouTuber";
+  }
+}
+@keyframes wordsM {
+  0% {
+    content: "W";
+    border-right: 4px solid black;
+    font-size: 4rem;
+  }
+  2% {
+    content: "We";
+  }
+  4% {
+    content: "Web";
+  }
+  6% {
+    content: "Web D";
+  }
+  8% {
+    content: "Web De";
+  }
+  10% {
+    content: "Web Dev";
+  }
+  12% {
+    content: "Web Deve";
+  }
+  14% {
+    content: "Web Devel";
+  }
+  16% {
+    content: "Web Develo";
+  }
+  18% {
+    content: "Web Develop";
+  }
+  20% {
+    content: "Web Develope";
+  }
+  22% {
+    content: "Web Developer";
+    border-right: none;
+    font-size: 5rem;
+  }
+  28% {
+    content: "Web Developer";
+    border-right: none;
+    font-size: 5rem;
+  }
+  29% {
+    content: "Web Developer";
+    border-right: none;
+    font-size: 0.2rem;
+  }
+  30% {
+    content: "F";
+    border-right: 4px solid black;
+    font-size: 4rem;
+  }
+  32% {
+    content: "Fr";
+  }
+  33% {
+    content: "Fro";
+  }
+  34% {
+    content: "Fron";
+  }
+  35% {
+    content: "Front";
+  }
+  36% {
+    content: "Fronte";
+  }
+  37% {
+    content: "Fronten";
+  }
+  38% {
+    content: "Frontend";
+  }
+  39% {
+    content: "Frontend D";
+  }
+  40% {
+    content: "Frontend De";
+  }
+  41% {
+    content: "Frontend Dev";
+  }
+  42% {
+    content: "Frontend Deve";
+  }
+  43% {
+    content: "Frontend Devel";
+  }
+  44% {
+    content: "Frontend Develo";
+  }
+  45% {
+    content: "Frontend Develop";
+  }
+  46% {
+    content: "Frontend Develope";
+  }
+  47% {
+    content: "Frontend Developer";
+    border-right: none;
+    font-size: 4.5rem;
+  }
+  54% {
+    content: "Frontend Developer";
+    border-right: none;
+    font-size: 4.5rem;
+  }
+
+  55% {
+    content: "B";
+    border-right: 4px solid black;
+    font-size: 4rem;
+  }
+  56% {
+    content: "Ba";
+  }
+  57% {
+    content: "Bac";
+  }
+  58% {
+    content: "Back";
+  }
+  59% {
+    content: "Backe";
+  }
+  60% {
+    content: "Backen";
+  }
+  61% {
+    content: "Backend";
+  }
+  62% {
+    content: "Backend D";
+  }
+  63% {
+    content: "Backend De";
+  }
+  64% {
+    content: "Backend Dev";
+  }
+  65% {
+    content: "Backend Deve";
+  }
+  66% {
+    content: "Backend Devel";
+  }
+  67% {
+    content: "Backend Develo";
+  }
+  68% {
+    content: "Backend Develop";
+  }
+  69% {
+    content: "Backend Develope";
+  }
+  70% {
+    content: "Backend Developer";
+    border-right: none;
+    font-size: 4.5rem;
+  }
+  79% {
+    content: "Backend Developer";
+    border-right: none;
+    font-size: 4.5rem;
+  }
+  80% {
+    content: "Backend Developer";
+    border-right: none;
+    font-size: 0.2rem;
+  }
+
+  81%,
+  82% {
+    content: "Y";
+    color: crimson;
+    border-right: 4px solid black;
+    font-size: 4rem;
+  }
+  83%,
+  84% {
+    content: "Yo";
+  }
+  85%,
+  86% {
+    content: "You";
+  }
+  87%,
+  88% {
+    content: "YouT";
+  }
+  89%,
+  90% {
+    content: "YouTu";
+  }
+  91%,
+  92% {
+    content: "YouTub";
+  }
+  93%,
+  94% {
+    content: "YouTube";
+  }
+  95%,
+  96% {
+    content: "YouTuber";
+    border-right: none;
+    font-size: 5rem;
+  }
+  97%,
+  99% {
+    content: "YouTuber";
+  }
+  100% {
+    content: "YouTuber";
+    font-size: 0.2rem;
+  }
+}

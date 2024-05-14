@@ -1,0 +1,47 @@
+*{
+  user-select: none;
+  // overflow-y: hidden;
+  padding: 0%;
+  margin: 0%;
+  
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.App{
+  min-height: 100vh; 
+  // background-color: black;
+}
+
+
+.dark{
+  background-color: rgba(0, 0, 0,0.5);
+  input{
+    color: white; background-color: black;}
+
+  color: white;
+}
+
+.light{
+  
+  background-color: white;
+  color: black;
+}
+#headermain{
+background-color: whitesmoke;
+z-index: 3;
+position: sticky;
+top: 0px;
+}
+@keyframes onhover{
+
+  0%{ background-color: inherit;
+      right: -10rem;
+  }
+  100%{ 
+    background-color: coral;
+      opacity: 1;
+      right: 0;
+  }
+}

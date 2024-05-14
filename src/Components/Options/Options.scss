@@ -1,0 +1,59 @@
+.OptionsD{
+ 
+    right: 0;
+    top: 4.7rem;
+    box-shadow: 10px 10px 10px rgba(255, 127, 80,0.25);
+
+}
+.OptionsM{
+    width: 20vw;
+    right: 0;
+    top: 11vh;
+    // border: 1px solid black;
+}
+.Options{
+    
+    animation: sliding 0.3s ease-in ;
+    width: 10rem;
+    height: auto;
+    // box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    // height: 5vh;
+    // border: 1px solid black;
+    
+    ul{
+        height: 100%vh;
+        background-color: inherit;
+        width: 100%;
+        padding: 1rem;
+        // background-color: yellow;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        display: flex;
+li{width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    // background-color: white;
+}
+    }
+    // background-color: black;
+}
+
+@keyframes sliding {
+
+0%{ opacity: 0.2;
+    right: -10rem;
+}
+100%{ 
+    opacity: 1;
+    right: 0;
+}
+    
+    
+
+}
+.Options::after{
+    animation: sliding 15s ease-in infinite;
+}

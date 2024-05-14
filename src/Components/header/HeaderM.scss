@@ -1,0 +1,43 @@
+
+#headerM{
+  background-color: white;
+  color: black;
+    height: 10rem;
+    // border: 1px solid red;
+    box-shadow: 10px 10px 10px coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{height: 10rem;
+      display: flex;
+      ul{
+        li{
+          a{
+            color: black;
+            text-decoration: none;
+          }
+        }
+        list-style: none;
+        padding-right:1rem ;
+        font-size: 2rem;
+        // border: 1px solid red;
+        height: 100%;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        // li{ }
+      }
+      
+
+      img {
+        margin-right: 3rem;
+        width: 3.5rem;
+      }
+    }
+  }
+    
+      
+
+
+    

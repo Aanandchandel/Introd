@@ -9,6 +9,7 @@ import fatchApi from "../FatchMathodes/fatch"
 import Cookies from "js-cookie"
 import { useEffect,useContext } from "react"
 import { CounterContext } from "../Context/MyContext"
+import { Link } from "react-router-dom"
 const Home=()=>{
     // Get cookies 
 const statusData=useContext(CounterContext)
@@ -82,7 +83,7 @@ Thank you for your visit and for considering my work.
 >
 Thank you for your visit and for considering my work.
 </p>
-<button>Resume</button>
+<button> <Link to={'https://drive.google.com/file/d/1HMSVRcWezyqlXCJxzMIJGSY_TXW6UsrX/view?usp=drivesdk'}>Resume</Link></button>
         </div>
 <img src={myimg} alt="" />
  
